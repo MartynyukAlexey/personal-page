@@ -22,13 +22,13 @@ const Navbar = () => {
 
 					<ul className="nav-list">
 						<li className="nav-list__item">
-							<NavLink to="/" className={({isActive}) => isActive ? activeLink : normalLink}>Home</NavLink>
+							<NavLink to="/personal-page/" className={({isActive}) => isActive ? activeLink : normalLink}>Home</NavLink>
 						</li>
 						<li className="nav-list__item">
-							<NavLink to="/projects" className={({isActive}) => isActive ? activeLink : normalLink}>Projects</NavLink>
+							<NavLink to="/personal-page/projects" className={({isActive}) => isActive ? activeLink : normalLink}>Projects</NavLink>
 						</li>
 						<li className="nav-list__item">
-							<NavLink to="/contacts" className={({isActive}) => isActive ? activeLink : normalLink}>Contacts</NavLink>
+							<NavLink to="/personal-page/contacts" className={({isActive}) => isActive ? activeLink : normalLink}>Contact me</NavLink>
 						</li>
 					</ul>
         		</div>
