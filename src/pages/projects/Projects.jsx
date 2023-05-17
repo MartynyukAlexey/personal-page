@@ -1,4 +1,6 @@
 import ProjectCard from "../../components/project-card/ProjectCard";
+import "./style.css"
+
 import { projects } from "../../utils/projects.js";
 
 const Projects = () => {
@@ -7,8 +9,8 @@ const Projects = () => {
             <div className="container">
                 <h2 className="title-1">Projects</h2>
                 <div className="projects">
-                    {projects.map((project) => {
-                        return <ProjectCard title={project.title} image={project.image} />;
+                    {projects.map((project, index) => {
+                        return <ProjectCard key={index} title={project.title} image={project.image} />;
                     })}
                 </div>
             </div>

@@ -32,7 +32,7 @@
 	row-gap: 10px;
 	align-items: center;
 	column-gap: 40px;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 500;
 	font-family: 'Poppins', sans-serif;
 }
@@ -64,11 +64,24 @@
 }
 
 @media (max-width: 620px) {
-    .nav-row {
+	.nav {
+		padding: 15px 0;
+	}
+
+	.nav-row {
 		justify-content: space-between;
+	}
+
+	.nav-list {
+		column-gap: 20px;
+		font-size: 16px;
 	}
 
 	.dark-mode-btn {
 		order: 0;
+	}
+
+	.logo {
+		display: none;
 	}
 }
