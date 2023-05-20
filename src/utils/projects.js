@@ -1,5 +1,5 @@
-import rabbits from "../assets/images/projects/rabbits.jpg";
-import puppies from "../assets/images/projects/puppies.jpeg";
+import rabbits from "./projects/rabbits.jpg";
+import puppies from "./projects/puppies.jpeg";
 
 const projects = [
     {

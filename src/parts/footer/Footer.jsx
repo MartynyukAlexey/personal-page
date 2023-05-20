@@ -1,10 +1,10 @@
 import "./style.css"
 
-import vk from "../../assets/icons/vk.svg"
-import instagram from "../../assets/icons/instagram.svg"
-import twitter from "../../assets/icons/twitter.svg"
-import gitHub from "../../assets/icons/gitHub.svg"
-import linkedIn from "../../assets/icons/linkedIn.svg"
+import vk from "./icons/vk.svg"
+import instagram from "./icons/instagram.svg"
+import twitter from "./icons/twitter.svg"
+import gitHub from "./icons/gitHub.svg"
+import linkedIn from "./icons/linkedIn.svg"
 
 const Footer = () => {
     return (

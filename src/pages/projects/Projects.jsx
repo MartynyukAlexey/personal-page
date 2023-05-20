@@ -1,4 +1,4 @@
-import ProjectCard from "../../components/project-card/ProjectCard";
+import ProjectCard from "./projectCard/ProjectCard.jsx";
 import "./style.css"
 
 import { projects } from "../../utils/projects.js";

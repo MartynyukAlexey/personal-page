@@ -2,8 +2,8 @@ import { useState, useEffect, useRef } from "react";
 
 import "./style.css";
 
-import sun from "../../assets/icons/sun.svg";
-import moon from "../../assets/icons/moon.svg";
+import sun from "./icons/sun.svg";
+import moon from "./icons/moon.svg";
 
 const DarkModeBtn = () => {
     const [darkMode, setDarkMode] = useState("light");
